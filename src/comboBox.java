@@ -41,7 +41,7 @@ public class comboBox extends JFrame {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		setLayout(new FlowLayout());
-	
+
 		imagesJComboBox = new JComboBox(names);
 		imagesJComboBox.setMaximumRowCount(3);
 

@@ -73,7 +73,7 @@ public class Formulario extends JFrame {
 		txtTesteInterface.setHorizontalAlignment(SwingConstants.CENTER);
 		txtTesteInterface.setBounds(43, 6, 363, 35);
 		txtTesteInterface.setFont(new Font("SansSerif", Font.PLAIN, 18));
-		txtTesteInterface.setText("HACK DE CS 100% ATUALIZADO");
+		txtTesteInterface.setText("TESTE GRAFICO");
 		txtTesteInterface.setBorder(null);
 		txtTesteInterface.setEditable(false);
 		panel.add(txtTesteInterface);
@@ -90,7 +90,7 @@ public class Formulario extends JFrame {
 		panel_1.add(panel_2);
 		panel_2.setLayout(null);
 
-		JToggleButton tglbtnNewToggleButton = new JToggleButton("AIMBOT");
+		JToggleButton tglbtnNewToggleButton = new JToggleButton("ON / OFF");
 		tglbtnNewToggleButton.setBounds(139, 54, 121, 23);
 		panel_2.add(tglbtnNewToggleButton);
 
@@ -98,7 +98,7 @@ public class Formulario extends JFrame {
 		slider.setBounds(102, 11, 200, 26);
 		panel_2.add(slider);
 		
-		JToggleButton tglbtnWallhack = new JToggleButton("WALLHACK");
+		JToggleButton tglbtnWallhack = new JToggleButton("ON / OFF");
 		tglbtnWallhack.setBounds(139, 87, 121, 23);
 		panel_2.add(tglbtnWallhack);
 
