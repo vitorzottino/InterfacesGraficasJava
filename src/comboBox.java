@@ -20,8 +20,10 @@ public class comboBox extends JFrame {
 	private JLabel label;
 	private String names[] = { "bug1.gif", "bug2.gif", "travelbug.gif", "buganim.gif" };
 
-	private Icon icons[] = { new ImageIcon(getClass().getResource(names[0])),
-			new ImageIcon(getClass().getResource(names[1])), new ImageIcon(getClass().getResource(names[2])),
+	private Icon icons[] = { 
+			new ImageIcon(getClass().getResource(names[0])),
+			new ImageIcon(getClass().getResource(names[1])), 
+			new ImageIcon(getClass().getResource(names[2])),
 			new ImageIcon(getClass().getResource(names[3])) };
 
 	public static void main(String[] args) {
